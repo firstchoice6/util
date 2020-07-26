@@ -1,10 +1,22 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <a-row>
+        <a-col :span="6" class="col">
+          <router-link to="/">Home</router-link>
+        </a-col>
+        <a-col :span="6">
+          <router-link to="/about">About</router-link>
+        </a-col>
+        <a-col :span="6" class="col">
+          <router-link to="/demo">Demo</router-link>
+        </a-col>
+        <a-col :span="6" class="col">
+          <router-link to="/layout">Layout</router-link>
+        </a-col>
+      </a-row>
     </div>
-    <router-view/>
+    <router-view />
   </div>
 </template>
 

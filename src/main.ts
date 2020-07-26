@@ -5,6 +5,18 @@ import store from './store'
 
 Vue.config.productionTip = false
 
+import 'ant-design-vue/dist/antd.css'
+import Antd from 'ant-design-vue';
+Vue.use(Antd)
+
+import Util from './common/util'
+Vue.use(Util)
+
+import Http from './common/request'
+import { Layout } from 'ant-design-vue'
+Vue.use(Http)
+
+
 new Vue({
   router,
   store,
