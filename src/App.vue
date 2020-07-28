@@ -1,7 +1,7 @@
 <template>
   <a-layout class="base-layout">
     <a-layout-sider v-model="collapsed" :trigger="null" collapsible>
-      <div class="logo">航天驭星</div>
+      <div class="logo">logo here</div>
       <a-menu class="left-menu" theme="dark" mode="inline" :default-selected-keys="['0']">
         <a-menu-item key="0">
           
